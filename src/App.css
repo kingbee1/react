@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
-}
+  .play-font{
+      font-family: 'Play', sans-serif !important;
+    }
+    .logo{
+      /*font-size: 55px;*/
+      color: #4B4848;
+    }
+    
+    .uppercase, .menu a {
+      text-transform: uppercase;
+    }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+    .menu a, .arial {
+      font-family: 'Arial', sans-serif;
+    }
+    @font-face {
+      font-family: 'Georgia';
+  /*    src: url('georgia.ttf') format('truetype');*/
+    }
+    .menu a {
+      font-size: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .bg-orange{
+      background-color: #F26D21;
+    }
+    .blue{
+      color: #2D8CFF;
+    }
+    .grey {
+      color: #95989A;
+    }
+    .bg-blue{
+      background-color: #2D8CFF;
+    }
+    .drop:after {
+      content: "▼";
+      padding: 12px 3px;
+    }
+    .nextsection{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    }
+    .nextsection-p{
+/*      font-weight: bold;*/
+      color: #4B4848;
+/*      padding: 100px 230px;*/
+    }
+    .lightblue{
+      background: #A8CCF8;
+    }
+  /*  .georgia {
+      font-family: Georgia;
+    }*/
